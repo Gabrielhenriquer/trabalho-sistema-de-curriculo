@@ -54,7 +54,7 @@ export const initialCurriculos: Curriculo[] = [
       },
     ],
     habilidades: ["Recrutamento", "Comunicação", "Feedback"],
-    imagem: "/avatar-lime.svg",
+    imagem: "/profile.svg",
   },
   {
     id: "2",
@@ -82,7 +82,7 @@ export const initialCurriculos: Curriculo[] = [
       },
     ],
     habilidades: ["React", "Next.js", "Tailwind"],
-    imagem: "/avatar-lime.svg",
+    imagem: "/profile.svg",
   },
 ];
 

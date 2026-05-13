@@ -4,7 +4,7 @@
 
 Projeto para o Trabalho 2: Remodelar o Sistema de Gestão de Currículos. Esta aplicação usa o ecossistema Next.js com foco em experiência do usuário, validação de formulário e arquitetura modular.
 
-A interface combina uma paleta de cores cinza com verde-limão para destacar ações e estados ativos sem perder a aparência clean.
+A interface combina uma paleta de cores cinza com roxo para destacar ações e estados ativos sem perder a aparência clean.
 
 ## Tecnologias
 
@@ -82,7 +82,7 @@ git remote add origin https://github.com/Gabrielhenriquer/trabalho-sistema-de-cu
 
 - A persistência é feita apenas no navegador com `localStorage`.
 - O campo de upload de imagem é simulado: o arquivo não é enviado para servidor.
-- Há um placeholder em `public/avatar-lime.svg` usado como imagem de perfil.
+- Há um placeholder em `public/profile.svg` usado como imagem de perfil padrão.
 
 ## Comandos úteis
 

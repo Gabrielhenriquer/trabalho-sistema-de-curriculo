@@ -15,18 +15,8 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-zinc-300/70 bg-zinc-100/95 backdrop-blur-xl">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-4 md:px-8">
-        <div>
-          <Link href="/" className="inline-flex items-center gap-2 text-lg font-semibold text-zinc-950">
-            <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-lime-500 text-white shadow-sm">
-              C
-            </span>
-            Currículo System
-          </Link>
-          <p className="text-sm text-zinc-600">Gestão de currículos com foco em UX, validação e responsividade.</p>
-        </div>
-
-        <nav className="flex flex-wrap items-center gap-2">
+      <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-4 md:px-8 md:flex-row md:items-center md:justify-between">
+        <nav className="order-first flex flex-wrap items-center gap-2 md:order-none">
           {navItems.map((item) => {
             const active = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
             const Icon = item.icon;
@@ -44,6 +34,16 @@ export function SiteHeader() {
             );
           })}
         </nav>
+
+        <div>
+          <Link href="/" className="inline-flex items-center gap-2 text-lg font-semibold text-zinc-950">
+            <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-lime-500 text-white shadow-sm">
+              S
+            </span>
+            Sistema de Currículos
+          </Link>
+          <p className="text-sm text-zinc-600">Gestão de currículos com foco em UX, validação e responsividade.</p>
+        </div>
       </div>
     </header>
   );

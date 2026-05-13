@@ -15,12 +15,14 @@ A interface combina uma paleta de cores cinza com verde-limão para destacar aç
 - React Input Mask
 - Sonner
 - React Icons / Lucide
+- Componentes com estilo inspirado em shadcn/ui
 - LocalStorage para persistência mockada
 
 ## Funcionalidades implementadas
 
 - Landing page com apresentação do sistema
-- Header com navegação e estado ativo
+- Header com navegação posicionada antes do título e estado ativo
+- Título do site traduzido para "Sistema de Currículos"
 - Lista de currículos com busca em tempo real por nome ou cargo
 - Página de detalhes de currículo com exclusão local
 - Formulário completo de cadastro de currículo
@@ -29,6 +31,7 @@ A interface combina uma paleta de cores cinza com verde-limão para destacar aç
 - Campos dinâmicos para formação acadêmica
 - Validação de Yup para todos os campos importantes
 - Feedback de sucesso e erro com Sonner
+- Botões com estados hover, focus-visible e disabled no formulário
 - Persistência mockada usando `localStorage`
 - Upload fake de imagem com exibição do nome do arquivo selecionado
 
